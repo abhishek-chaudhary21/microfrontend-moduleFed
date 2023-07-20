@@ -1,12 +1,12 @@
 import React from 'react'; // Must be imported for webpack to work
 import './App.css';
 
-function App() {
+function Footer() {
   return (
     <div className="headerApp">
-      <div>Headerfffuhhhuuusss</div>
+      <div>Footer</div>
     </div>
   );
 }
 
-export default App;
+export default Footer;

@@ -38,6 +38,7 @@ module.exports = {
             filename: "remoteEntry.js",
             exposes: {
               "./Header": "./src/App",
+              "./Footer": "./src/Footer",
             },
             shared: {
               ...dependencies,

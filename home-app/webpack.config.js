@@ -44,6 +44,8 @@ module.exports = {
             remotes: {
                 // a remote 'Header' from the url '<http://localhost:3001/remoteEntry.js>'
                 "HeaderApp": "HeaderApp@http://localhost:3001/remoteEntry.js",  
+                // "HeaderApp": "HeaderApp@https://56b6-103-74-19-125.ngrok-free.app/remoteEntry.js",  
+
             },
             shared: {
                 ...dependencies,
